@@ -1,8 +1,0 @@
-1.Quando você iria preferir utilizar um repositório remote ao invés de manter o seu
-trabalho de maneira local?
-
-Em situações de trabalho, onde mais de uma pessoa tem acesso aos arquivos e deseja
-modificicá-los, ou até mesmo, monitorar o seu progresso, Além disso, situações onde
-o seu próprio computador não esteja num estado muito confiável e você deseja ter um
-lugar seguro para salvar seus arquivos importantes.
-
