@@ -1,0 +1,59 @@
+1. O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+Ao se iniciar um repositório, você cria um arquivo  invisivel, do formato .git,
+e o promp lhe mostra que você está na HEAD do repositório, e que até o presente
+momento nenhum commit foi incluso. É necessário criar um repositório para que o
+git consiga gerar um histórico de atualização dos commits e dos arquivos linkados
+ao arquivo desejado a ser salvo.
+
+2.Em que se difere a área de preparação do diretório de trabalho e do repositório?
+Qual valor você acha que ela oferece?
+
+A área de preparação é uma especie de "mala" onde você armazena tudo que deseja 
+levar para o commit, enquanto o diretório de trabalho é a área onde você esta 
+utilizando seus arquivos,e  por fim, o repositório é uma espécie de estoque, onde 
+por fim você armazena tudo quer deseja levar nos commmits.
+
+3.Como você pode usar a área de preparação para garantir que tenha um commit por 
+alteração lógica?
+
+A área de preparação pode ser vista como um espeço para organizar ideias, nela pode
+ser adicionado tudo que deseja ser enviado no commit, e por meio desta área é possível
+realizar-se comparações com a Working Area e perceber se ocorreu alguma alteração desde
+seu ultimo comando Add, ou até mesmo, comparar com o commit mais recente para ver o que
+foi modificado entre a área de preparação e ele.
+
+4. Quais são algumas das situações em que branches seriam úteis para manter seu histórico
+organizado? Como branches ajudariam?
+
+Situações onde você deseja fazer um teste, talvez arriscado, que pode modificar drasticamente
+seu projeto sem colocar todo o seu trabalho em risco, ou talvez para separar um momento onde
+uma mesma ideia foi desenvolvida em idiomas diferentes, ou quando se deseja modificar uma 
+configuração para o uso especifico de algum grupo   que necessita de diferenças no operamento
+do sistema.
+
+5. Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Diagramas ajudam na visualização da linha do tempo de modificações de uma branch, por meio
+deles é possível compreender quais caminhos foram utilizados para chegar no ponmto desejado do
+programa, qual commit pode ser alcançado deste ponto, e qual não pode mais, além de ajudar
+visualmente a compreender que a branch acompanha o commit até uma nova ser criada.
+
+6. Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa
+forma?
+
+É uma branch completa, que contém todos os commits de todas as branchs mescladas, sendo assim,
+caso entre elas se enontrasse uma branch que servia apenas como referência de acesso, ela pode
+ser excluida, pois graças a fusão, agora deve ser possível acessar qualquer arquivo no histórico
+de commits a partir da master.
+
+7. Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+Os prós da mesclagem automática são a facilidade de fundir duas branches sem ter que se preocupar em 
+reorganizar as linhas dos códigos ou até mesmo de conferir as alterações feitas para copiá-las, porém 
+o contra é que em problemas mais complexos, o git necessitária de uma inteligência artificial muito 
+avançada para saber se qual arquivo escolher na mesclagem e qual rejeitar. O pró da mesclagem manual
+é sempre dar a possíbilidade do autor escolher qual forma deseja utilizar, entre duas ou mais alternativas,
+ou até mesmo selecionar como reestruturar o código com base em conversas com os demais modificadores, os 
+contras seriam selecionar uma a uma mudanças simples, como alterações ou implementações de linhas, que
+nada atrapalhariam o fluxo do programa, de forma manual e ardua.
